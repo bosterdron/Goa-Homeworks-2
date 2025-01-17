@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: gray;
+  }
+  
+  ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 20px;
+  }
+  
+  ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    padding-left: 20px;
+  }
+  

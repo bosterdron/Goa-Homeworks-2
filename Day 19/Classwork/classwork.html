@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ცხრილი და onclick</title>
+</head>
+<body>
+
+    <!-- 1) ზუსტად ასეთი ცხრილი -->
+    <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; text-align: center;">
+        <tr>
+            <th>Columu 1</th>
+            <th>Columu 2</th>
+            <th>Columu 3</th>
+        </tr>
+        <tr>
+            <td>Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 1</td>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3 Cell 1</td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+
+    <!-- 2) 5 პარაგრაფი და ფერის შეცვლა -->
+    <p style="color: red;">ეს პარაგრაფი წითელია.</p>
+    <p style="color: blue;">ეს პარაგრაფი ლურჯია.</p>
+    <p style="color: green;">ეს პარაგრაფი მწვანეა.</p>
+    <p style="color: purple;">ეს პარაგრაფი იისფერია.</p>
+    <p style="color: orange;">ეს პარაგრაფი ნარინჯისფერია.</p>
+
+    <!-- 3) 5 პარაგრაფი და ფონის ფერის შეცვლა -->
+    <p style="background-color: yellow;">ეს პარაგრაფი ყვითელ ფონზეა.</p>
+    <p style="background-color: lightblue;">ეს პარაგრაფი ღია ლურჯ ფონზეა.</p>
+    <p style="background-color: lightgreen;">ეს პარაგრაფი ღია მწვანე ფონზეა.</p>
+    <p style="background-color: pink;">ეს პარაგრაფი ვარდისფერ ფონზეა.</p>
+    <p style="background-color: lightgrey;">ეს პარაგრაფი ღია ნაცრისფერ ფონზეა.</p>
+
+    <!-- 4) პარაგრაფი ცენტრში -->
+    <p style="text-align: center;">ეს პარაგრაფი ცენტრირებულია.</p>
+
+    <!-- 5) ღილაკზე დაჭერისას შეტყობინების გამოტანა -->
+    <button onclick="alert('თქვენ დააჭირეთ ღილაკს!')">დააჭირეთ აქ</button>
+
+    <!-- 6) ტექსტზე დაჭერისას შეტყობინების გამოტანა -->
+    <p onclick="alert('თქვენ დააჭირეთ ამ ტექსტს!')" style="cursor: pointer;">დააჭირეთ ამ ტექსტს</p>
+
+</body>
+</html>

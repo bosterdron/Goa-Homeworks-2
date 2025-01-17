@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgba(0, 150, 255, 0.5);
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 500;
+}
